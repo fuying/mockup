@@ -1,0 +1,142 @@
+body {
+	background-color: #fff;
+	font-size: 16px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",sans-serif;
+}
+
+.row {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #fff;
+	padding: 20px 0 10px 0;
+	border-bottom: 2px solid #e30066;
+}
+
+.logo {
+	height: 30px;
+	float: left;
+}
+
+.logo img {
+	height: 30px;
+}
+
+nav {
+	float: right;
+}
+
+a.btn {
+	height: 32px;
+	text-decoration: none;
+	padding: 5px 15px;
+	display: inline-block;
+}
+
+.btn {
+	border-radius: 3px / 3px;
+	font-size: 14px;
+}
+
+.primary-btn {
+	background-color: #2b9ea6;
+	color: #fff;
+}
+
+.primary-btn:hover {
+	background-color: #61c3d6;
+}
+
+.secondary-btn {
+	border: 1px solid #e0e0e0;
+	color: #000;
+	background-color: #fff;
+}
+
+.secondary-btn:hover {
+	background-color: #f0f0f0;
+}
+
+.slide {
+	height: 600px;
+	min-width: 600px;
+}
+
+.fuying2 {
+	background: url(../images/fuying2.jpg) bottom;
+	background-size: 100% auto;
+}
+
+.hero-wrap {
+	position: relative;
+}
+
+.slide article {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	width: 400px;
+	height: 600px;
+	padding: 30px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slide .name {
+	font-size: 30px;
+	color: #e30066;
+}
+
+.slide .role {
+	font-size: 25px;
+	color: #BBCE4C;	
+}
+
+.hero-link {
+	padding: 5px 20px;
+	border: 4px solid #fff;
+	border-radius: 3px;
+
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.icon-camera {
+	width: 30px;
+	height: 16px;
+	margin-left: 5px;
+	background: 0 3px url(../images/video.png) no-repeat;
+	display: inline-block;
+}
+
+.people {
+	border-top: 2px solid #eee;	
+	padding-top: 30px;
+}
+
+.people h2 {
+	color: #656a6c;
+	text-align: center;
+	font-weight: normal;
+}
+
+footer {
+	padding: 5px 0;
+	background-color: #403f3f;
+	color: #6d7373;
+	font-size: 12px;
+	text-align: center;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
