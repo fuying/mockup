@@ -52,7 +52,7 @@ a.btn {
 .secondary-btn {
 	border: 1px solid #e0e0e0;
 	color: #000;
-	background-color: #fff;
+	background-color: #f6f6f6;
 }
 
 .secondary-btn:hover {
@@ -62,15 +62,18 @@ a.btn {
 .slide {
 	height: 600px;
 	min-width: 600px;
-}
-
-.fuying2 {
-	background: url(../images/fuying2.jpg) bottom;
-	background-size: 100% auto;
+	background-color: #a0c5c3;
 }
 
 .hero-wrap {
 	position: relative;
+}
+
+.hero-image {
+	position: absolute;
+	left: 0;
+	height: 600px;
+	overflow: hidden;
 }
 
 .slide article {
