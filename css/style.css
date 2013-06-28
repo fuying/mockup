@@ -88,6 +88,15 @@ a.btn {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(163,163,163,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
 }
 
+.slide article .contact {
+	line-height: 55px;
+}
+
+.slide article .name, .slide article .weibo {
+	margin-right: 10px;
+	float: left;
+}
+
 .slide .name {
 	font-size: 30px;
 	font-weight: normal;
