@@ -40,6 +40,12 @@ a.btn {
 	display: inline-block;
 }
 
+.btn.bigger {
+	height: 40px;
+	width: 200px;
+	font-size: 18px;
+}
+
 .primary-btn {
 	background-color: #2b9ea6;
 	color: #fff;
