@@ -1,0 +1,104 @@
+.welcome {
+	color: #2b9ea6;
+	font-size: 14px;
+}
+
+.unwanted-link {
+	color: #999;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.information-form {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 0 5px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 0 5px 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 0 5px 0;
+  margin: 30px 0;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.information-form .title,
+.information-form .action {
+  display: block;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 -2px 8px -2px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 -2px 8px -2px inset;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 -2px 8px -2px inset;
+  background-color: #F1F1F1;
+  padding: 20px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.information-form .title {
+  border-radius: 5px 5px 0 0;
+}
+
+.information-form .action {
+  border-radius: 0 0 5px 5px;
+}
+
+.information-form .sub-title {
+  font-weight: bold;
+}
+
+.information-form .control-group {
+  margin: 20px 0;
+}
+
+.control-group label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+.control-group input[type=text],
+.control-group input[type=date],
+.control-group input[type=email],
+.control-group select {
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 35px;
+  font-size: 14px;
+  padding: 0 5px;
+  outline: none;
+}
+
+.control-group input:focus {
+  background-color: #EAF7FA;
+}
+
+.information-form .sub-info {
+  border-bottom: 1px dotted #d6d6d6;
+  padding: 5px 20px;
+  margin: 20px 0;
+}
+
+.information-form .sub-info:nth-last-child(2) {
+  border: none;
+  margin-bottom: 0;
+}
+
+.information-form .radio-set legend{
+  display: inline-block;
+  float: left;
+  width: 100px;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.information-form .radio-set label{
+  width: none;
+  text-align: left;
+}
+
+.information-form .radio-set .radio {
+  float: left;
+}

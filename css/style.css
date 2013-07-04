@@ -29,15 +29,15 @@ nav {
 }
 
 a.btn {
-	height: 32px;
 	text-decoration: none;
-	padding: 5px 15px;
-	display: inline-block;
 }
 
 .btn {
 	border-radius: 3px / 3px;
 	font-size: 14px;
+	height: 32px;
+	padding: 5px 15px;
+	display: inline-block;
 }
 
 .primary-btn {
@@ -179,4 +179,8 @@ footer {
 	visibility: hidden;
 	line-height: 0;
 	height: 0;
+}
+
+.mh20 {
+	margin: 0 20px;
 }
