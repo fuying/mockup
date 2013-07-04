@@ -44,10 +44,12 @@ body {
 .information-form .title {
   border-radius: 5px 5px 0 0;
   font-size: 18px;
+  background: url("../images/header-large-left-green.png") no-repeat scroll left top transparent;
 }
 
 .information-form .action {
   border-radius: 0 0 5px 5px;
+  background: url("../images/header-large-right-pink.png") no-repeat scroll right bottom transparent;
 }
 
 .information-form .sub-title {
@@ -88,7 +90,6 @@ body {
 }
 
 .information-form .sub-info:nth-last-child(2) {
-  border: none;
   margin-bottom: 0;
 }
 
