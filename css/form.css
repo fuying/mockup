@@ -1,6 +1,11 @@
+body {
+  background-color: #EAF7FA;
+}
+
 .welcome {
 	color: #2b9ea6;
 	font-size: 14px;
+  font-weight: bold;
 }
 
 .unwanted-link {
@@ -38,6 +43,7 @@
 
 .information-form .title {
   border-radius: 5px 5px 0 0;
+  font-size: 18px;
 }
 
 .information-form .action {
