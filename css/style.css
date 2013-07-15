@@ -116,10 +116,16 @@ a.btn {
 	color: #BBCE4C;	
 }
 
+.slide .entry-date {
+	margin-top: 10px;
+	font-size: 35px;
+	color: #9b8575;
+}
+
 .slide .description {
+	margin-top: 40px;
 	font-size: 18px;
 	color: #333;
-	margin-top: 50px;
 }
 
 .hero-link {
