@@ -68,7 +68,7 @@ a.btn {
 .slide {
 	height: 600px;
 	min-width: 600px;
-	background-color: #a0c5c3;
+	background-color: #fff;
 }
 
 .hero-wrap {
@@ -86,12 +86,9 @@ a.btn {
 	position: absolute;
 	top: 0;
 	right: 0px;
-	width: 400px;
+	width: 550px;
 	height: 600px;
-	padding: 30px;
-	color: #fff;
-	background: #898989;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(163,163,163,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	padding-top: 150px;
 }
 
 .slide article .contact {
@@ -108,20 +105,21 @@ a.btn {
 }
 
 .slide .name {
-	font-size: 30px;
+	font-size: 48px;
 	font-weight: normal;
 	color: #e30066;
 }
 
 .slide .role {
-	font-size: 25px;
+	font-size: 40px;
 	font-weight: normal;
 	color: #BBCE4C;	
 }
 
 .slide .description {
-	margin-top: 10px;
-	text-indent: 30px;
+	font-size: 18px;
+	color: #333;
+	margin-top: 50px;
 }
 
 .hero-link {
@@ -155,27 +153,25 @@ a.btn {
 }
 
 .video {
-	position: absolute;
-	bottom: 20px;
-	height: 200px;
-	width: 340px;
-	border-radius: 10px;
-	margin-top: 20px;
+	height: 50px;
+	width: 200px;
+	margin: 50px 100px;
+	border-radius: 3px;
+	line-height: 45px;
 	text-align: center;
-	background-image: url(../images/preview.png);
-	background-size: 340px 200px;
+	border: 3px solid #2b9ea6;
+	color: #2b9ea6;
+	font-size: 20px;
 }
 
 .video:hover {
-	background-image: url(../images/preview-hover.png);
+	border-color: #61c3d6;
 }
 
 footer {
-	padding: 5px 0;
-	background-color: #403f3f;
+	padding: 10px 0;
 	color: #6d7373;
 	font-size: 12px;
-	text-align: center;
 }
 
 .clearfix:after {
