@@ -172,6 +172,7 @@ footer {
 	padding: 10px 0;
 	color: #6d7373;
 	font-size: 12px;
+	text-align: center;
 }
 
 .clearfix:after {

@@ -3,8 +3,12 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/jquery.slides.min.js"></script>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/slide.css">
+  
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.slides.js"></script>
+
 </head>
 <body>
 	<header>
@@ -19,8 +23,8 @@
 	</header>
 	<div class="container">
 		<section class="hero">
-			<ul class="hero-slide" id="slides">
-				<li class="slide">
+			<div class="hero-slide row" id="slides">
+				<div class="slide">
 					<div class="hero-wrap row">
 						<img class="hero-image" src="images/bianrui.png">
 						<article>
@@ -35,8 +39,116 @@
 							<div class="video">他们这么工作</div>
 						</article>
 					</div>
-				</li>
-			</ul>
+				</div>
+				<div class="slide">
+					<div class="hero-wrap row">
+						<img class="hero-image" src="images/bowen.png">
+						<article>
+							<div class="contact clearfix">
+								<h1 class="name">马博文 <span class="role">DEV</span></h1>
+								<img class="weibo" src="images/weibo.png">
+							</div>
+							<p class="description">
+								以前， 如果遇到问题，我会犹豫，觉得困难，害怕去面对和尝试新的东西;<br>
+								现在，如果遇到问题，我会开心，觉得有趣，勇于去寻找更酷更炫的解决方案.
+							</p>
+							<div class="video">他们这么工作</div>
+						</article>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="hero-wrap row">
+						<img class="hero-image" src="images/yangmei2.png">
+						<article>
+							<div class="contact clearfix">
+								<h1 class="name">杨眉 <span class="role">QA</span></h1>
+								<img class="weibo" src="images/weibo.png">
+							</div>
+							<p class="description">
+								写代码的乐趣是从加入ThoughtWorks的那一刻开始。
+							</p>
+							<div class="video">他们这么工作</div>
+						</article>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="hero-wrap row">
+						<img class="hero-image" src="images/xuzhezi.png">
+						<article>
+							<div class="contact clearfix">
+								<h1 class="name">许喆子 <span class="role">DEV</span></h1>
+								<img class="weibo" src="images/weibo.png">
+							</div>
+							<p class="description">
+								毕业生在TW，要很努力的跑，才能看到前面的TWer 的影子，稍不留神，你就连影子都看不着，所以只有努力、努力加努力。
+							</p>
+							<div class="video">他们这么工作</div>
+						</article>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="hero-wrap row">
+						<img class="hero-image" src="images/wangni.png">
+						<article>
+							<div class="contact clearfix">
+								<h1 class="name">王妮 <span class="role">DEV</span></h1>
+								<img class="weibo" src="images/weibo.png">
+							</div>
+							<p class="description">
+								之前，我把加入工作当成了某种结束，加入TW才发现，它其实只是一个美妙的开始。
+							</p>
+							<div class="video">他们这么工作</div>
+						</article>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="hero-wrap row">
+						<img class="hero-image" src="images/zhaiwei.png">
+						<article>
+							<div class="contact clearfix">
+								<h1 class="name">翟威 <span class="role">DEV</span></h1>
+								<img class="weibo" src="images/weibo.png">
+							</div>
+							<p class="description">
+								Thoughtworks 一个给你机会选择，尊重你选择的公司。
+							</p>
+							<div class="video">他们这么工作</div>
+						</article>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="hero-wrap row">
+						<img class="hero-image" src="images/kewei.png">
+						<article>
+							<div class="contact clearfix">
+								<h1 class="name">李科伟 <span class="role">DEV</span></h1>
+								<img class="weibo" src="images/weibo.png">
+							</div>
+							<p class="description">
+								如果你写代码不爽，你肯定不在咱这（ThoughtWorks)。
+							</p>
+							<div class="video">他们这么工作</div>
+						</article>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="hero-wrap row">
+						<img class="hero-image" src="images/haisheng.png">
+						<article>
+							<div class="contact clearfix">
+								<h1 class="name">刘海生 <span class="role">UX</span></h1>
+								<img class="weibo" src="images/weibo.png">
+							</div>
+							<p class="description">
+								在ThoughtWorks，机会和挑战扑过来的速度比你幻想的还快。
+							</p>
+							<div class="video">他们这么工作</div>
+						</article>
+					</div>
+				</div>
+				<a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      	<a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+			</div>
 		</section>
 	</div>
 	<footer>
@@ -44,4 +156,17 @@
 			备案号:陕ICP备13005347号-1
 		</div>
 	</footer>
+	<script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: false,
+        play: {
+        	auto: true,
+        	interval: 5000
+        }
+      });
+    });
+  </script>
 </body>
