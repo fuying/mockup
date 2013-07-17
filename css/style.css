@@ -28,6 +28,13 @@ nav {
 	float: right;
 }
 
+a.weibo {
+	height: 30px;
+	width: 30px;
+	margin-right: 30px;
+	background-image: url(../images/weibo.png);
+}
+
 a.btn {
 	text-decoration: none;
 }
@@ -93,15 +100,6 @@ a.btn {
 
 .slide article .contact {
 	line-height: 30px;
-}
-
-.slide article .weibo {
-	height: 30px;
-}
-
-.slide article .name, .slide article .weibo {
-	margin-right: 10px;
-	float: left;
 }
 
 .slide .name {
@@ -186,7 +184,6 @@ footer {
 	display: block;
 	clear: both;
 	visibility: hidden;
-	line-height: 0;
 	height: 0;
 }
 
