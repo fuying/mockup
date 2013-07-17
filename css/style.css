@@ -28,11 +28,16 @@ nav {
 	float: right;
 }
 
-a.weibo {
-	height: 30px;
-	width: 30px;
+nav a {
+	float: left;
+}
+
+.weibo {
 	margin-right: 30px;
-	background-image: url(../images/weibo.png);
+}
+
+.weibo img {
+	height: 30px;
 }
 
 a.btn {
