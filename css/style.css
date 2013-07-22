@@ -34,10 +34,14 @@ nav a {
 
 .weibo {
 	margin-right: 30px;
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/weibo.png);
+	background-size: 30px;
 }
 
-.weibo img {
-	height: 30px;
+.weibo:hover {
+	background-image: url(../images/weibo-hover.png)
 }
 
 a.btn {
