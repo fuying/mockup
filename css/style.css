@@ -10,18 +10,47 @@ body {
 }
 
 header {
+	border-top: 5px solid #2b9ea6; 
 	background-color: #fff;
-	padding: 20px 0 10px 0;
-	border-bottom: 2px solid #e30066;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 0 5px 1px rgba(0,0,0,.08);
+}
+
+.hero {
+	z-index: -1;
 }
 
 .logo {
-	height: 30px;
+	height: 50px;
+	margin-top: -25px;
 	float: left;
 }
 
 .logo img {
-	height: 30px;
+	height: 50px;
+}
+
+.inside .logo {
+	margin-top: 0px;
+	height: 40px;
+}
+
+.inside .logo img {
+	height: 40px;
+}
+
+.inside .header-wrapper {
+	margin-top: 15px;
+}
+
+.inside .links {
+	line-height: 39px;
+}
+
+.tw-logo, 
+.tw-logo img {
+	height: 20px;
 }
 
 .links {
@@ -48,7 +77,6 @@ header {
 .weibo {
 	width: 25px;
 	height: 25px;
-	margin: 2px 0;
 	background-image: url(../images/weibo.png);
 	background-size: 25px;
 }
@@ -56,6 +84,24 @@ header {
 .weibo:hover {
 	background-image: url(../images/weibo-hover.png);
 	cursor: pointer;
+}
+
+.login {
+	text-align: right;
+}
+
+.login a {
+	display: inline-block;
+	width: 170px;
+	height: 40px;
+	margin-bottom: 10px;
+	padding: 3px 0;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 0 0 3px 3px;
+	background-color: #2b9ea6;
+	color: #fff;
+	text-decoration: none;
 }
 
 a.btn {
