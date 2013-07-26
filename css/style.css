@@ -24,24 +24,33 @@ header {
 	height: 30px;
 }
 
-nav {
+.links {
 	float: right;
 }
 
-nav a {
+.links li {
 	float: left;
+	margin-left: 15px;
+}
+
+.link a {
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+	color: #2b9ea6;
+	font-weight: bold;
 }
 
 .weibo {
-	margin-right: 30px;
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	background-image: url(../images/weibo.png);
-	background-size: 30px;
+	background-size: 25px;
 }
 
 .weibo:hover {
-	background-image: url(../images/weibo-hover.png)
+	background-image: url(../images/weibo-hover.png);
+	cursor: pointer;
 }
 
 a.btn {
@@ -50,9 +59,9 @@ a.btn {
 
 .btn {
 	border-radius: 3px / 3px;
-	font-size: 14px;
+	font-size: 16px;
 	height: 32px;
-	padding: 5px 15px;
+	padding: 5px 40px;
 	display: inline-block;
 }
 
