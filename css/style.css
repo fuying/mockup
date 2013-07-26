@@ -35,15 +35,20 @@ header {
 
 .link a {
 	display: inline-block;
-	padding: 5px;
+	padding: 5px 0;
 	text-decoration: none;
 	color: #2b9ea6;
 	font-weight: bold;
 }
 
+.link a:hover {
+	text-decoration: underline;
+}
+
 .weibo {
 	width: 25px;
 	height: 25px;
+	margin: 2px 0;
 	background-image: url(../images/weibo.png);
 	background-size: 25px;
 }
